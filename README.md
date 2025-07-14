@@ -22,3 +22,9 @@ venv\Scripts\activate  # On Windows
 
 ```bash
 pip install -r requirements.txt
+Run the FastAPI server:
+
+bash
+Copy
+Edit
+uvicorn main:app --reload
